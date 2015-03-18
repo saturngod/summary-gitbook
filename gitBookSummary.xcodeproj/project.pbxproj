@@ -13,8 +13,6 @@
 		65FDE4771AB82D5B00B28F42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FDE4761AB82D5B00B28F42 /* Images.xcassets */; };
 		65FDE47A1AB82D5B00B28F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FDE4781AB82D5B00B28F42 /* Main.storyboard */; };
 		65FDE4861AB82D5B00B28F42 /* gitBookSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4851AB82D5B00B28F42 /* gitBookSummaryTests.swift */; };
-		65FDE4901AB82D7400B28F42 /* SUMMARY.md in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE48F1AB82D7400B28F42 /* SUMMARY.md */; };
-		65FDE4911AB82ED200B28F42 /* SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 65FDE48F1AB82D7400B28F42 /* SUMMARY.md */; };
 		65FDE49E1AB835E700B28F42 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDE49D1AB835E700B28F42 /* libxml2.dylib */; };
 		65FDE4A51AB8372200B28F42 /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4A11AB8372200B28F42 /* HTMLNode.swift */; };
 		65FDE4A61AB8372200B28F42 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4A21AB8372200B28F42 /* HTMLParser.swift */; };
@@ -33,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		6572DD1D1AB9C39900D31BDA /* summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summary.swift; sourceTree = "<group>"; };
-		65FDE46D1AB82D5B00B28F42 /* gitBookSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitBookSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FDE46D1AB82D5B00B28F42 /* Summary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FDE4711AB82D5B00B28F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FDE4721AB82D5B00B28F42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FDE4741AB82D5B00B28F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 		65FDE47F1AB82D5B00B28F42 /* gitBookSummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitBookSummaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FDE4841AB82D5B00B28F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FDE4851AB82D5B00B28F42 /* gitBookSummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitBookSummaryTests.swift; sourceTree = "<group>"; };
-		65FDE48F1AB82D7400B28F42 /* SUMMARY.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SUMMARY.md; sourceTree = "<group>"; };
 		65FDE49D1AB835E700B28F42 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		65FDE4A11AB8372200B28F42 /* HTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLNode.swift; sourceTree = "<group>"; };
 		65FDE4A21AB8372200B28F42 /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
@@ -90,7 +87,7 @@
 		65FDE46E1AB82D5B00B28F42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65FDE46D1AB82D5B00B28F42 /* gitBookSummary.app */,
+				65FDE46D1AB82D5B00B28F42 /* Summary.app */,
 				65FDE47F1AB82D5B00B28F42 /* gitBookSummaryTests.xctest */,
 			);
 			name = Products;
@@ -101,7 +98,6 @@
 			children = (
 				6572DD1C1AB9C38800D31BDA /* Model */,
 				65FDE49F1AB8372200B28F42 /* libs */,
-				65FDE48F1AB82D7400B28F42 /* SUMMARY.md */,
 				65FDE4721AB82D5B00B28F42 /* AppDelegate.swift */,
 				65FDE4741AB82D5B00B28F42 /* ViewController.swift */,
 				65FDE4761AB82D5B00B28F42 /* Images.xcassets */,
@@ -158,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65FDE46C1AB82D5B00B28F42 /* gitBookSummary */ = {
+		65FDE46C1AB82D5B00B28F42 /* Summary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65FDE4891AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "gitBookSummary" */;
+			buildConfigurationList = 65FDE4891AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "Summary" */;
 			buildPhases = (
 				65FDE4691AB82D5B00B28F42 /* Sources */,
 				65FDE46A1AB82D5B00B28F42 /* Frameworks */,
@@ -170,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = gitBookSummary;
+			name = Summary;
 			productName = gitBookSummary;
-			productReference = 65FDE46D1AB82D5B00B28F42 /* gitBookSummary.app */;
+			productReference = 65FDE46D1AB82D5B00B28F42 /* Summary.app */;
 			productType = "com.apple.product-type.application";
 		};
 		65FDE47E1AB82D5B00B28F42 /* gitBookSummaryTests */ = {
@@ -224,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65FDE46C1AB82D5B00B28F42 /* gitBookSummary */,
+				65FDE46C1AB82D5B00B28F42 /* Summary */,
 				65FDE47E1AB82D5B00B28F42 /* gitBookSummaryTests */,
 			);
 		};
@@ -237,7 +233,6 @@
 			files = (
 				65FDE4771AB82D5B00B28F42 /* Images.xcassets in Resources */,
 				65FDE47A1AB82D5B00B28F42 /* Main.storyboard in Resources */,
-				65FDE4911AB82ED200B28F42 /* SUMMARY.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FDE4A51AB8372200B28F42 /* HTMLNode.swift in Sources */,
-				65FDE4901AB82D7400B28F42 /* SUMMARY.md in Sources */,
 				65FDE4751AB82D5B00B28F42 /* ViewController.swift in Sources */,
 				65FDE4731AB82D5B00B28F42 /* AppDelegate.swift in Sources */,
 				65FDE4A71AB8372200B28F42 /* Markdown.swift in Sources */,
@@ -278,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		65FDE4811AB82D5B00B28F42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65FDE46C1AB82D5B00B28F42 /* gitBookSummary */;
+			target = 65FDE46C1AB82D5B00B28F42 /* Summary */;
 			targetProxy = 65FDE4801AB82D5B00B28F42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65FDE4891AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "gitBookSummary" */ = {
+		65FDE4891AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "Summary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65FDE48A1AB82D5B00B28F42 /* Debug */,
