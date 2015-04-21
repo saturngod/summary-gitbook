@@ -62,7 +62,7 @@ class ViewController: NSViewController , NSTableViewDataSource,NSTableViewDelega
   }
   
 
-  func tableView(tableView: NSTableView!, objectValueForTableColumn tableColumn: NSTableColumn!, row: Int) -> AnyObject! {
+  func tableView(tableView: NSTableView, objectValueForTableColumn tableColumn: NSTableColumn?, row: Int) -> AnyObject? {
     
     var info:[String:String] = self.tableData[row]
     

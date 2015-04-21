@@ -12,22 +12,11 @@
 		65FDE4751AB82D5B00B28F42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4741AB82D5B00B28F42 /* ViewController.swift */; };
 		65FDE4771AB82D5B00B28F42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FDE4761AB82D5B00B28F42 /* Images.xcassets */; };
 		65FDE47A1AB82D5B00B28F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FDE4781AB82D5B00B28F42 /* Main.storyboard */; };
-		65FDE4861AB82D5B00B28F42 /* gitBookSummaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4851AB82D5B00B28F42 /* gitBookSummaryTests.swift */; };
 		65FDE49E1AB835E700B28F42 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDE49D1AB835E700B28F42 /* libxml2.dylib */; };
 		65FDE4A51AB8372200B28F42 /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4A11AB8372200B28F42 /* HTMLNode.swift */; };
 		65FDE4A61AB8372200B28F42 /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4A21AB8372200B28F42 /* HTMLParser.swift */; };
 		65FDE4A71AB8372200B28F42 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FDE4A41AB8372200B28F42 /* Markdown.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		65FDE4801AB82D5B00B28F42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 65FDE4651AB82D5A00B28F42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65FDE46C1AB82D5B00B28F42;
-			remoteInfo = gitBookSummary;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6572DD1D1AB9C39900D31BDA /* summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summary.swift; sourceTree = "<group>"; };
@@ -37,7 +26,6 @@
 		65FDE4741AB82D5B00B28F42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65FDE4761AB82D5B00B28F42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65FDE4791AB82D5B00B28F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65FDE47F1AB82D5B00B28F42 /* gitBookSummaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitBookSummaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FDE4841AB82D5B00B28F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FDE4851AB82D5B00B28F42 /* gitBookSummaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitBookSummaryTests.swift; sourceTree = "<group>"; };
 		65FDE49D1AB835E700B28F42 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -53,13 +41,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FDE49E1AB835E700B28F42 /* libxml2.dylib in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65FDE47C1AB82D5B00B28F42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				65FDE46D1AB82D5B00B28F42 /* Summary.app */,
-				65FDE47F1AB82D5B00B28F42 /* gitBookSummaryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,24 +151,6 @@
 			productReference = 65FDE46D1AB82D5B00B28F42 /* Summary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65FDE47E1AB82D5B00B28F42 /* gitBookSummaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65FDE48C1AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "gitBookSummaryTests" */;
-			buildPhases = (
-				65FDE47B1AB82D5B00B28F42 /* Sources */,
-				65FDE47C1AB82D5B00B28F42 /* Frameworks */,
-				65FDE47D1AB82D5B00B28F42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65FDE4811AB82D5B00B28F42 /* PBXTargetDependency */,
-			);
-			name = gitBookSummaryTests;
-			productName = gitBookSummaryTests;
-			productReference = 65FDE47F1AB82D5B00B28F42 /* gitBookSummaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +162,6 @@
 				TargetAttributes = {
 					65FDE46C1AB82D5B00B28F42 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					65FDE47E1AB82D5B00B28F42 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 65FDE46C1AB82D5B00B28F42;
 					};
 				};
 			};
@@ -221,7 +179,6 @@
 			projectRoot = "";
 			targets = (
 				65FDE46C1AB82D5B00B28F42 /* Summary */,
-				65FDE47E1AB82D5B00B28F42 /* gitBookSummaryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +190,6 @@
 			files = (
 				65FDE4771AB82D5B00B28F42 /* Images.xcassets in Resources */,
 				65FDE47A1AB82D5B00B28F42 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65FDE47D1AB82D5B00B28F42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65FDE47B1AB82D5B00B28F42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65FDE4861AB82D5B00B28F42 /* gitBookSummaryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		65FDE4811AB82D5B00B28F42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65FDE46C1AB82D5B00B28F42 /* Summary */;
-			targetProxy = 65FDE4801AB82D5B00B28F42 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		65FDE4781AB82D5B00B28F42 /* Main.storyboard */ = {
@@ -402,42 +336,6 @@
 			};
 			name = Release;
 		};
-		65FDE48D1AB82D5B00B28F42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = gitBookSummaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitBookSummary.app/Contents/MacOS/gitBookSummary";
-			};
-			name = Debug;
-		};
-		65FDE48E1AB82D5B00B28F42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = gitBookSummaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitBookSummary.app/Contents/MacOS/gitBookSummary";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,15 +353,6 @@
 			buildConfigurations = (
 				65FDE48A1AB82D5B00B28F42 /* Debug */,
 				65FDE48B1AB82D5B00B28F42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65FDE48C1AB82D5B00B28F42 /* Build configuration list for PBXNativeTarget "gitBookSummaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65FDE48D1AB82D5B00B28F42 /* Debug */,
-				65FDE48E1AB82D5B00B28F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

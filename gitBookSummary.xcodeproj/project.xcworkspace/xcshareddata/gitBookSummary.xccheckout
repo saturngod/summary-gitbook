@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AB1BEF95-7D32-492E-98C2-68B8453DC3E3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>gitBookSummary</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1890778753CBA981E8FE89EBE03B4CDDB2F01930</key>
 		<string>github.com:saturngod/summary-gitbook.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>gitBookSummary.xcodeproj</string>
+	<string>gitBookSummary.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1890778753CBA981E8FE89EBE03B4CDDB2F01930</key>
